@@ -1,0 +1,101 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(36, 100, 219), rgb(0, 8, 69));
+    background-repeat: no-repeat;
+}
+.title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-weight: bolder;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 20px;
+    border-inline-start: 10px;
+    border-inline-end: 10px;
+    border-color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0), -2px -2px 10px rgb(0, 0, 0);
+}
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 3fr 1fr 1fr;
+    column-gap: 5px;
+   }
+img {
+    max-width: 100%;
+    max-height:100%;
+    padding-left: 70%;
+    padding-top: 20%;
+   }
+.text {
+    font-size: 20px;
+    padding-left: 0%;
+    padding-top: -5%;
+   }
+.head{
+    color: #ffffff;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 5px black, -1px -1px 5px rgb(0, 0, 0);
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.button{
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    border-width: 7px;
+    font-size: medium;
+}
+.button:hover{
+    background-color: rgb(20, 62, 141);
+    color: white;
+}
+.content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(181, 228, 245);
+    font-size: 20px;
+}
+.form{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.border{
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 30px;
+}
+a:link{
+    color: rgb(0, 16, 190);
+}
+a:visited{
+    color: rgb(166, 0, 255);
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
